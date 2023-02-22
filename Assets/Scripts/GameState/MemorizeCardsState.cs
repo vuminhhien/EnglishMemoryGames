@@ -14,7 +14,7 @@ public class MemorizeCardsState : GameState
 
 	public override void EnterState()
 	{
-		this.timer = 0.0f;
+		this.timer = 0.3f;
 	}
 
 	public override void UpdateAction()

@@ -109,7 +109,7 @@ public class GameManager : MonoBehaviour
 	{
 		CardSO first = selectedCards[0].GetComponent<CardController>().cardType;
 		CardSO second = selectedCards[1].GetComponent<CardController>().cardType;
-
 		return first != null && second != null && first.cardName == second.pairName && first.pairName == second.cardName;
+		
 	}
 }
