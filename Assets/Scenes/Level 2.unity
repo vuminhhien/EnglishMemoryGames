@@ -2554,7 +2554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 159
+    m_Left: 160
     m_Right: 0
     m_Top: 152
     m_Bottom: 152
@@ -2579,7 +2579,7 @@ MonoBehaviour:
   cardPrefab: {fileID: 8421937447676332416, guid: ff36405a65fd8a24abfd1e28dda5ba4b,
     type: 3}
   cardCollection: {fileID: 11400000, guid: b9b7d2bcf0e54a0448ffd2568f59159a, type: 2}
-  easyData: {fileID: 11400000, guid: d02e8c0482d7f7b4cad976828fa40bf4, type: 2}
+  easyData: {fileID: 11400000, guid: 447b0226ca2269948810d8cfd7fbc604, type: 2}
   normalData: {fileID: 11400000, guid: a94e50e111f67b147978ded77c5d7174, type: 2}
   hardData: {fileID: 11400000, guid: 447b0226ca2269948810d8cfd7fbc604, type: 2}
 --- !u!1 &1377457322

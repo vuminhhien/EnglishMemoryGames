@@ -159,8 +159,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -38.17836}
-  m_SizeDelta: {x: 234.2739, y: 318.8891}
+  m_AnchoredPosition: {x: 5.02, y: -70.834}
+  m_SizeDelta: {x: 709.705, y: 1089.666}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &47014026
 MonoBehaviour:
@@ -182,7 +182,7 @@ MonoBehaviour:
   m_ChildAlignment: 1
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 100, y: 50}
+  m_CellSize: {x: 300, y: 80}
   m_Spacing: {x: 15, y: 15}
   m_Constraint: 1
   m_ConstraintCount: 2
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -381,6 +381,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9089887961573345718, guid: 326fc5bac3ba8ed4ba2cd3b65dc680fe,
+        type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 9089887961573345718, guid: 326fc5bac3ba8ed4ba2cd3b65dc680fe,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9089887961573345718, guid: 326fc5bac3ba8ed4ba2cd3b65dc680fe,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 9089887961573345718, guid: 326fc5bac3ba8ed4ba2cd3b65dc680fe,
         type: 3}
@@ -619,8 +634,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 166}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -8, y: 573.3834}
+  m_SizeDelta: {x: 500, y: 95.233}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1648637028
 MonoBehaviour:
@@ -669,8 +684,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 70
+  m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -814,6 +829,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Text
+      objectReference: {fileID: 0}
+    - target: {fileID: 9089887961573345718, guid: 326fc5bac3ba8ed4ba2cd3b65dc680fe,
+        type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 9089887961573345718, guid: 326fc5bac3ba8ed4ba2cd3b65dc680fe,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9089887961573345718, guid: 326fc5bac3ba8ed4ba2cd3b65dc680fe,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 9089887961734189090, guid: 326fc5bac3ba8ed4ba2cd3b65dc680fe,
         type: 3}
