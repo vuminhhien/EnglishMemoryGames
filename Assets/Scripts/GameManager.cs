@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
 	public GameObject[] selectedCards;
 
 	int cardCount;
-	int movesCount;
+	// int movesCount;
 
 	public int CardCount
 	{
@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
 	{
-		movesCount = 0;
+		// movesCount = 0;
 		selectedCards = new GameObject[2];
 		selectedCards[0] = null;
 		selectedCards[1] = null;

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33dbd92e5aa4e3e43b636acf3bd97819, type: 3}
+  m_Name: F_Level6
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: 173503a7e4a06894ca0120c17378e95f, type: 2}
+  - {fileID: 11400000, guid: 5fd0b1321fc521a40a55cebe6475991a, type: 2}
+  - {fileID: 11400000, guid: 3ad1feda14f8256479d2dda9bc8527f8, type: 2}
+  - {fileID: 11400000, guid: 087a6f503c5aa1f4bbba251d29314107, type: 2}
+  - {fileID: 11400000, guid: c5117461b9a700e42b491ad5218e31af, type: 2}
+  - {fileID: 11400000, guid: 1dcf006e847cc964089dc35bdc0b43e5, type: 2}
+  - {fileID: 11400000, guid: ac81746667cb98b4c8b3c50483fa4199, type: 2}
+  - {fileID: 11400000, guid: bb40f423137c8df4e80362cac2fd2d23, type: 2}
+  - {fileID: 11400000, guid: 0e7ded22a1d918547bbe2e16e3e144e8, type: 2}
+  - {fileID: 11400000, guid: cd6216b9de59bc5499b070651f6af351, type: 2}
+  - {fileID: 11400000, guid: 7da5bfaa72eca5749a3a11b0c836bc59, type: 2}
+  - {fileID: 11400000, guid: 6e3352d654d230d4ba19ded46a8fd30a, type: 2}
+  - {fileID: 11400000, guid: 5368a4de6b338944bbf12f1ad4977549, type: 2}
+  - {fileID: 11400000, guid: 7f39acdc2fe98c64d892c231f28a7035, type: 2}
+  - {fileID: 11400000, guid: 4126079887cf7434e9ed88598f1bc992, type: 2}
+  - {fileID: 11400000, guid: 63e12c5140c209f45a4214c778756a9f, type: 2}
+  - {fileID: 11400000, guid: e34e4434eae8679429f6bd4ad6b3d4a5, type: 2}
+  - {fileID: 11400000, guid: 5389873106f33f6429039e66d7460947, type: 2}
+  - {fileID: 11400000, guid: 14bc202a15a97b740accec6e2458929a, type: 2}
+  - {fileID: 11400000, guid: a21f96f79660dac40a9112f8eff30c24, type: 2}

@@ -7,9 +7,9 @@ public class UIController : MonoBehaviour
 	public GameObject endGamePanel;
 	public GameObject pauseGamePanel;
 
-	public TMP_Text countText;
+	// public TMP_Text countText;
 
-	public TMP_InputField userNameField;
+	// public TMP_InputField userNameField;
 
 	int movesCount;
 
@@ -19,7 +19,7 @@ public class UIController : MonoBehaviour
 		endGamePanel.SetActive(false);
 		pauseGamePanel.SetActive(false);
 
-		countText.text = "0";
+		// countText.text = "0";
     }
 
 	public void ActivateEndPanel()
@@ -38,26 +38,47 @@ public class UIController : MonoBehaviour
 	// 	countText.text = movesCount.ToString();
 	// }
 
-	public void SaveHighScore()
-	{
-		Difficulty savedDifficulty = (Difficulty)PlayerPrefs.GetInt("Difficulty");
+	// public void SaveHighScore()
+	// {
+	// 	Difficulty savedDifficulty = (Difficulty)PlayerPrefs.GetInt("Difficulty");
 
-		TimerController timerController = FindObjectOfType<TimerController>();
-		string userName = userNameField.text;
+	// 	TimerController timerController = FindObjectOfType<TimerController>();
+	// 	string userName = userNameField.text;
 
-		int score = HighScoreHelper.CalculateHighScore(Mathf.FloorToInt(timerController.GameTime), movesCount, savedDifficulty);
+	// 	int score = HighScoreHelper.CalculateHighScore(Mathf.FloorToInt(timerController.GameTime), movesCount, savedDifficulty);
 
-		HighScores hs = HighScoreHelper.LoadHighScores(savedDifficulty);
-		ScoreEntry newHighScore = new ScoreEntry(userName, score);
+	// 	HighScores hs = HighScoreHelper.LoadHighScores(savedDifficulty);
+	// 	ScoreEntry newHighScore = new ScoreEntry(userName, score);
 
-		HighScoreHelper.AddHighScore(hs, newHighScore);
-		HighScoreHelper.SaveHighScore(hs, savedDifficulty);
+	// 	HighScoreHelper.AddHighScore(hs, newHighScore);
+	// 	HighScoreHelper.SaveHighScore(hs, savedDifficulty);
 
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-	}
+	// 	SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+	// }
 
 	public void Restart()
 	{
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+	}
+
+	public void MoveToMenu()
+	{
+		SceneManager.LoadScene("CategorySelect");
+	}
+	public void MoveToLevelSelect()
+	{
+		SceneManager.LoadScene("Animal_LVSelect");
+	}
+	public void MoveToFruitSec()
+	{
+		SceneManager.LoadScene("Fruit_LVSelect");
+	}
+	public void MoveToOccupationSec()
+	{
+		SceneManager.LoadScene("Occupation_LVSelect");
+	}
+	public void MoveToVegetableSec()
+	{
+		SceneManager.LoadScene("Vegetable_LVSelect");
 	}
 }
